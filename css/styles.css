@@ -39,14 +39,18 @@ section{
     align-items: center;
     justify-content: center;
 }
+.inv{
+    flex-direction: row-reverse;
+}
 .divide > article{
     width: 100%;
     height: 100vh;
 }
 .divide > .imag{
-    background-image: url("../img/Petter-by-SWRT-NZ042.jpg");
+    background-image: url("../img/IMG-20251217-WA0005.jpg");
     background-size:cover ;
     background-repeat: no-repeat;
+    flex-basis: 35%;
 }
 
 .divide > .text{
@@ -55,6 +59,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-basis: 65%;
 }
 .text > p{
     padding: 0 75px;
